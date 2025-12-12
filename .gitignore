@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Datos (IMPORTANTE: No subir datos raw/interim/processed)
+data/01_raw/*.csv
+data/01_raw/*.json
+data/02_interim/*.csv
+data/03_processed/*.csv
+
+# Mantener estructura de carpetas
+!data/01_raw/.gitkeep
+!data/02_interim/.gitkeep
+!data/03_processed/.gitkeep
+
+# Modelos (archivos grandes)
+models/*.keras
+models/*.h5
+
+# Figuras generadas (opcional: descomentar si no quieres subir figuras)
+# figures/*.png
+# figures/*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# TensorFlow/Keras
+*.h5
+*.pb
+checkpoint
+*.ckpt
+*.index
+*.data-*
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
