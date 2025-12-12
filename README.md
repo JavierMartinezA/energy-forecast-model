@@ -51,7 +51,7 @@ python run.py
 
 ## 📝 Nota
 
-Este proyecto fue desarrollado con asistencia de IA: **Claude 3.5 Sonnet** y **Gemini 2.0 Flash**.
+Este proyecto fue desarrollado con asistencia de IA: **Claude  Sonnet 4.5** y **Gemini 3 pro**.
 
 ---
 
